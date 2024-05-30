@@ -1,5 +1,8 @@
+
 /* Some default styles */
-body, ul, li {
+body,
+ul,
+li {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -10,6 +13,7 @@ body {
     font-family: Arial, sans-serif;
 }
 
+/* ..........Start Header Section.......... */
 /* Navbar container styling */
 .navbar {
     display: flex;
@@ -39,7 +43,7 @@ body {
 }
 
 /* Navbar menu item styling */
-.navbar-menu > li {
+.navbar-menu>li {
     position: relative;
 }
 
@@ -66,7 +70,7 @@ body {
     left: 0;
     background-color: white;
     border: 1px solid #ccc;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 /* Dropdown menu item styling */
@@ -80,3 +84,21 @@ body {
 .dropdown:hover .dropdown-menu {
     display: block;
 }
+/* ..........End Header Section.......... */
+
+/* ..........Start Footer Section.......... */
+/* Footer styling */
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f1f1f1;
+    border-top: 1px solid #ccc;
+}
+
+.footer p {
+    margin: 0;
+    font-weight: bold;
+    color: black;
+}
+
+/* ..........End Footer Section.......... */
